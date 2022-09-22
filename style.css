@@ -1,0 +1,43 @@
+.card{
+display: flex;
+flex-direction: column;
+}
+
+.card1{
+width: 100px;
+height: 100px;
+background-color: aqua;
+margin: 5px;
+}
+.card2{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    margin: 5px;
+
+}
+.card3{
+     width: 100px;
+     height: 100px;
+     background-color: aqua;
+     margin: 5px;
+}
+button{
+    color:white;
+    background-color: blue;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+}
+btn{
+    color: white;
+    margin: 10px;
+    border: 1px solid red;
+    width: 50px;
+    border-radius: 5px;
+    height: 40px;
+    background-color: blue;
+}
+span{
+    margin: 20px;
+}

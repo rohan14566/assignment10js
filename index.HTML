@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <h3>Q.1 Write the code to access element which is having id as "text".</h3>    
+     <p id="prank" class="para" style="border:1px solid blue";>I am para</p>
+     
+    <h3>Q.2 Write the code to access element which is having tag as "h1"</h3>
+    <h1 class="shrin" style="border:1px solid red";>i am heading</h1>
+ 
+    <h3>Q.3 Write the code to access element which is having class as "box"</h3>
+   <p class="pillo" style="border:1px solid blue";>I am para</p>
+  
+   <h3>Q.4 (h1)Hello (/h1)
+
+    Change the heading from "Hello" to "Hello World" using DOM functions</h3>
+    <p id="yello" class="paragraph" style="color: blue;";>hello</p> 
+
+     <h3>Q.5 Create three cards on HTML page and arrange them using flex property in row or horizontal direction <br> and also create button at the bottom named "Change Flex direction". When user clicks on this button, the cards arrangement should be changed to vertical direction.
+    </h3>
+  <div class="card">
+    <div class="card1"></div>
+    <div class="card2"></div>
+    <div class="card3"></div>
+ </div> 
+ <button onclick="myFunction()" type="button" class="btn">change flex direction</button> 
+
+  <h3>Q.6 What the difference between window vs document?</h3>
+ window is the execution context and global object for that context's JavaScript.<br> document contains the DOM, initialized by parsing HTML. screen describes the physical display's full screen. 
+
+  <h3>Q.7 (h1) Hello (/h1) <br> 
+
+Add one style attribute and give text color as red and id attribute and give the id value as "heading" in the above given h1 tag using DOM functions</h3>
+
+    <h1>hello</h1>  
+
+  <h3>Q.8 Create an HTML page having content as Hello world and a button named Replace Text. When user will click on this button page content should be changed to "Welcome to Elevation academy"
+    </h3>
+  <h1 id="bton"><p>hello world</p></h1>
+ <button onclick="change()" style="color: white;">click here</button>  
+
+  <h3>Q.9 Write code to implement timer clock using JS -- display HH:MM:SS -- the time should keep updating every second </h3>
+  <div id="clock"></div>  
+
+   <h3>Q.10 Create a select drop down for selecting Year 20-21, 21-22 etc. Print the item text selected</h3> 
+  <select id="list" onchange="change();">
+    <option value="year-20-21">year-20-21</option>
+    <option value="year-21-22">year-21-22</option>
+  </select>
+ <h2 style="color:green;">result</h2>
+   
+   <h3>Q.Create a form having name ,email, phone no. , birth year 
+Add validations - phone no. should start with 91 , it should be 10 digits
+email should be domain prepbytes.com
+birth year should be > 95
+</h3> 
+
+   <form action="#">
+    <label for="name">Name : </label>
+    <input id="name" type="text" placeholder="Enter your name" required><br><br>
+    <label for="email">Email :</label>
+    <input id="email" type="text" placeholder="Enter your email" required><span
+    id="message1"> Domain should be "@prepbytes.com" only</span><br><br>
+    <label for="phone">Phone No:</label>
+    <input id="phone" type="number" placeholder="Enter the phone number"
+    required><span id="message2"> Phone number should start with 91 and must be 10 digits
+    only</span><br><br>
+    <label for="birthYear">Birth Year : </label>
+    <input id="birthYear" type="date" required><span id="message3"> Birth Year should
+    be greater than 1995</span><br><br>
+    <button type="submit" onclick="check()">Submit</button>
+    </form>
+ <script src="demo.js"></script>
+</body>
+</html>
